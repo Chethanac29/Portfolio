@@ -1,0 +1,64 @@
+.profile h1, .profile img{
+    display: inline-block;
+    vertical-align: middle;
+}
+img{
+    height:150px;
+    border: 2px solid #000;
+    border-radius: 10%;
+    object-fit: cover;
+    
+}
+h1{
+    font-size: 80px;
+    width: 80%;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.socials p{
+    display:inline-block;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    padding: 50px;
+    background-color:  lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.resume{
+    background-color: white;
+    padding: 50px;
+    border: 5px solid black;
+    border-radius: 22px;
+    
+}
+
+a{
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: red;
+}
+.email{
+    width: 10%;
+}
+.LinkedIn{
+    width: 10%;
+}
+hr{
+    height: 2px;
+    border-color: black;
+    background-color: black;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.education,.skills,.projects,.webdev,.extra,.achievements,.certificates{
+    font-size: 20px;
+}
